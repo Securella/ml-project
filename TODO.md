@@ -135,10 +135,35 @@
 
 ---
 
-## **Step 9: Deployment (OPTIONAL)**
+## ** Deployment (OPTIONAL)**
 
 - [ ] Prepare the Flask app for deployment on Heroku or any other cloud platform.
 - [ ] Create a `Procfile` for Heroku deployment specifying the app entry point.
 - [ ] Deploy the app to Heroku and verify that it is working.
+
+---
+
+## **Step 10: Report**
+
+### Project Overview
+- **Objective**: The goal of this project is to analyze and predict early readmission of diabetes patients within 30 days of discharge from hospitals using historical clinical data.
+- **Dataset**: The dataset includes records from 130 US hospitals over a span of 10 years, comprising various features related to patient care.
+
+### Methodology
+- **Data Exploration**: Initial exploration of the dataset to understand the distribution of features and identify any anomalies or missing values.
+- **Data Preprocessing**: Steps taken to clean the data, including handling missing values, normalization, and encoding categorical variables.
+- **Feature Engineering**: Creating new features that may improve the model’s predictive power based on domain knowledge.
+- **Model Selection**: Various classification models were evaluated, including Logistic Regression, Random Forest, and XGBoost, and so on.
+- **Evaluation Metrics**: The models were assessed using metrics such as accuracy, precision, recall, and F1 score to ensure robustness.
+
+### Challenges Faced
+- **Data Quality Issues**: Encountered missing values and inconsistencies in the dataset which required significant preprocessing.
+- **Model Overfitting**: Initial models showed signs of overfitting, necessitating the use of regularization techniques and cross-validation.
+- **Deployment Issues**: Challenges in integrating the predictive model into a web application environment.
+
+### Lessons Learned
+- **Importance of Data Cleaning**: Comprehensive data cleaning and preprocessing are crucial for building effective predictive models.
+- **Model Complexity**: Simpler models can sometimes outperform more complex ones if the data is not sufficient.
+- **Other**: anything else of importance
 
 ---
