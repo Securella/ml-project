@@ -8,7 +8,7 @@
 
 ---
 
-## **Step 1: Data Loading and Initial Inspection**
+## **Step 1: Data Loading and Initial Inspection** ORKHAN
 
 - [ ] Load csv files into pandas DataFrames.
 - [ ] Inspect the first few rows and check data integrity.
@@ -17,7 +17,7 @@
 
 ---
 
-## **Step 2: Exploratory Data Analysis **
+## **Step 2: Exploratory Data Analysis ** ORKHAN
 
 - [ ] Generate summary statistics for numerical and categorical columns.
 - [ ] Visualize the distribution of categorical features (e.g., `gender`, `admission_type`).
@@ -27,7 +27,7 @@
 
 ---
 
-## **Step 3: Data Cleaning and Preprocessing**
+## **Step 3: Data Cleaning and Preprocessing** ORKHAN
 
 ### **3.1: Data Cleaning**
 
@@ -48,7 +48,7 @@
 
 ---
 
-## **Step 4: Train-Test Split**
+## **Step 4: Train-Test Split** ORKHAN
 
 - [ ] Define the feature matrix `X` and the target variable `Y`.
 - [ ] Split the dataset into training and testing sets (80/20 split).
