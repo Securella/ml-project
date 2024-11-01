@@ -8,12 +8,12 @@
 
 ---
 
-## **Step 1: Data Loading and Initial Inspection**
+## **Step 1: Data Loading and Initial Inspection** ORKHAN
 
-- [x] Load csv files into pandas DataFrames.
-- [x] Inspect the first few rows and check data integrity.
-- [x] Check for missing values in the dataset (show result in code).
-- [x] Verify the target variable (`readmitted`) for class imbalances.
+- [ ] Load csv files into pandas DataFrames.
+- [ ] Inspect the first few rows and check data integrity.
+- [ ] Check for missing values in the dataset (show result in code).
+- [ ] Verify the target variable (`readmitted`) for class imbalances.
 
 ---
 
