@@ -63,16 +63,16 @@
 - [ ] (OPTIONAL) Train a KNN.
 - [ ] (OPTIONAL) Train a Naive Bayes.
 - [ ] (OPTIONAL) Train an SVM.
-- [ ] Document the initial performance of all models.
+- [x] Document the initial performance of all models.
 
 ---
 
 ## **Step 6: Model Evaluation and Comparison**
 
-- [ ] Evaluate each model using classification metrics (accuracy, precision, recall, F1 score, AUC).
-- [ ] Compare models' performance.
-- [ ] Generate and visualize ROC curves for each model.
-- [ ] Plot feature importance for Random Forest and XGBoost models.
+- [x] Evaluate each model using classification metrics (accuracy, precision, recall, F1 score).
+- [x] Compare models' performance.
+- [x] Generate and visualize ROC curves for each model.
+- [x] Plot feature importance for Random Forest and XGBoost models.
 
 ---
 
