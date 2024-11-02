@@ -57,9 +57,9 @@
 
 ## **Step 5: Model Training**
 
-- [ ] Train a Logistic Regression model.
-- [ ] Train a Random Forest Classifier.
-- [ ] Train an XGBoost Classifier.
+- [x] Train a Logistic Regression model.
+- [x] Train a Random Forest Classifier.
+- [x] Train an XGBoost Classifier.
 - [ ] (OPTIONAL) Train a KNN.
 - [ ] (OPTIONAL) Train a Naive Bayes.
 - [ ] (OPTIONAL) Train an SVM.
@@ -78,9 +78,10 @@
 
 ## **Step 7: Model Tuning (OPTIONAL)**
 
-- [ ] Perform hyperparameter tuning on the Random Forest model using `GridSearchCV`.
-- [ ] Perform hyperparameter tuning on the XGBoost model using `GridSearchCV`.
-- [ ] Document any improvements in model performance after tuning.
+- [x] Hyperparameter tuning for Logistic Regression using both grid search and randomized search with SMOTE oversampling.
+- [x] Perform hyperparameter tuning on the Random Forest model using `RandomSearchCV`.
+- [x] Perform hyperparameter tuning on the XGBoost model using `RandomSearchCV`.
+- [x] Document any improvements in model performance after tuning.
 
 ---
 
