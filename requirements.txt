@@ -1,0 +1,15 @@
+# Core requirements
+streamlit==1.18.1       # Replace with the latest Streamlit version if different
+joblib                  # For model loading
+pandas                  # For data manipulation
+numpy                   # For numerical operations
+scikit-learn            # For machine learning models
+xgboost                 # For XGBoost model
+imbalanced-learn        # For SMOTE and other imbalance handling techniques
+matplotlib              # For plotting
+seaborn                 # For enhanced plotting
+altair==4.2.2           # Required for Streamlit visualizations
+
+# Optional (only include if you used them in your project)
+category_encoders       # For categorical feature encoding
+plotly                  # For interactive plots if used in your app or notebook
