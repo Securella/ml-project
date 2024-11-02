@@ -1,3 +1,20 @@
+# Diabetes Readmission Prediction App
+# -----------------------------------
+# Instructions to Run the App:
+# 1. Ensure you have Python installed (Python 3.7 or later recommended).
+# 2. Install required packages by running:
+#    pip install -r requirements.txt
+#    (If you don’t have a requirements.txt, manually install key libraries:
+#     pip install streamlit pandas numpy joblib scikit-learn xgboost)
+# 3. Start the app by running:
+#    streamlit run app.py
+# 4. Open the local URL provided in the terminal (usually http://localhost:8501).
+
+# This app allows you to input patient data and predict the likelihood of early readmission.
+# Additionally, it shows the relationship between key features (like age and number of medications)
+# and readmission rates based on the entire dataset.
+
+
 import streamlit as st
 import pandas as pd
 import joblib  # For loading the model and scaler
