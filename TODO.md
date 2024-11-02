@@ -108,13 +108,13 @@
 ### **9.1: Free Hosting Options**
 
 #### **Option 1: Streamlit Cloud (Easiest)**
-- [ ] Push your Streamlit app to a GitHub repository.
-- [ ] Go to [Streamlit Cloud](https://share.streamlit.io/).
-- [ ] Connect your GitHub account and select the repository containing your Streamlit app.
-- [ ] Deploy the app to Streamlit Cloud (formerly Streamlit Sharing) and get a public URL.
+- [x] Push Streamlit app to a GitHub repository.
+- [ ] (DEPRECATED)Go to [Streamlit Cloud](https://share.streamlit.io/).
+- [ ] (DEPRECATED) Connect your GitHub account and select the repository containing your Streamlit app.
+- [ ] (DEPRECATED) Deploy the app to Streamlit Cloud (formerly Streamlit Sharing) and get a public URL.
 
 
-#### **Option 2: AWS Free Tier with EC2**
+#### **(DEPRECATED) Option 2: AWS Free Tier with EC2**
 - [ ] Launch an EC2 instance (Ubuntu).
 - [ ] SSH into the instance and install necessary software (Python, Streamlit, etc.).
 - [ ] Upload app files to the EC2 instance.
@@ -126,7 +126,7 @@
 ---
 
 
-### **Alternative: Flask Web Application**
+### **(DEPRECATED) Alternative: Flask Web Application**
 
 - [ ] Set up a basic Flask app with necessary routes.
 - [ ] Create a route for the home page displaying a form for patient data input.
@@ -136,7 +136,7 @@
 
 ---
 
-## ** Deployment (OPTIONAL)**
+## ** (DEPRECATED) Deployment (OPTIONAL)**
 
 - [ ] Prepare the Flask app for deployment on Heroku or any other cloud platform.
 - [ ] Create a `Procfile` for Heroku deployment specifying the app entry point.
