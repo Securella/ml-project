@@ -19,11 +19,11 @@
 
 ## **Step 2: Exploratory Data Analysis ** ORKHAN
 
-- [ ] Generate summary statistics for numerical and categorical columns.
-- [ ] Visualize the distribution of categorical features (e.g., `gender`, `admission_type`).
-- [ ] Visualize the distribution of numerical features (e.g., `time_in_hospital`, `num_lab_procedures`).
-- [ ] Generate a correlation matrix and visualize using a heatmap.
-- [ ] Document key insights and patterns discovered during this step.
+- [x] Generate summary statistics for numerical and categorical columns.
+- [x] Visualize the distribution of categorical features (e.g., `gender`, `admission_type`).
+- [x] Visualize the distribution of numerical features (e.g., `time_in_hospital`, `num_lab_procedures`).
+- [x] Generate a correlation matrix and visualize using a heatmap.
+- [x] Document key insights and patterns discovered during this step.
 
 ---
 
@@ -31,27 +31,27 @@
 
 ### **3.1: Data Cleaning**
 
-- [ ] Drop irrelevant columns.
-- [ ] Handle missing values:
+- [x] Drop irrelevant columns.
+- [x] Handle missing values:
     - Impute missing categorical values with `'Unknown'` or the mode.
     - Impute missing numerical values with the median (or mean, depending on the situation).
-- [ ] (OPTIONAL) Remove extreme outliers in numerical columns (if that makes sense for our dataset).
-- [ ] Double chesk after each step/modification how the data looks like by visualizing, printing or showing first results in the table format.
+- [x] (OPTIONAL) Remove extreme outliers in numerical columns (if that makes sense for our dataset).
+- [x] Double chesk after each step/modification how the data looks like by visualizing, printing or showing first results in the table format.
 
 ### **3.2: Preprocessing**
 
-- [ ] Encode binary categorical variables (e.g., `gender`) with `LabelEncoder` (HAHAHA).
-- [ ] Apply one-hot encoding to multi-class categorical variables (e.g., `admission_type`).
-- [ ] Scale numerical features (e.g., `age`, `time_in_hospital`) using `StandardScaler` or similar.
-- [ ] Suggest if anything else should be done to make data quality amazing to work with.
-- [ ] Double chesk after each step/modification how the data looks like by visualizing, printing or showing first results in the table format.
+- [ ] (DEPRECATED)Encode binary categorical variables (e.g., `gender`) with `LabelEncoder` (HAHAHA).
+- [x] Apply one-hot encoding to multi-class categorical variables (e.g., `admission_type`).
+- [x] Scale numerical features (e.g., `age`, `time_in_hospital`) using `StandardScaler` or similar.
+- [x] Suggest if anything else should be done to make data quality amazing to work with.
+- [x] Double chesk after each step/modification how the data looks like by visualizing, printing or showing first results in the table format.
 
 ---
 
 ## **Step 4: Train-Test Split** ORKHAN
 
-- [ ] Define the feature matrix `X` and the target variable `Y`.
-- [ ] Split the dataset into training and testing sets (80/20 split).
+- [x] Define the feature matrix `X` and the target variable `Y`.
+- [x] Split the dataset into training and testing sets (80/20 split).
 
 ---
 
